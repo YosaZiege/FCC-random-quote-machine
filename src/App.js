@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {  FaQuoteLeft, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { Row, Col, Container, Button } from 'react-bootstrap';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import quotes from "./quotes.json"
 
 document.body.style.transition = "background 1s";
@@ -29,7 +29,7 @@ function getRandomColor() {
   }
   return color;
 }
-const body = document.body;
+
 
 function App() {
 
@@ -60,10 +60,10 @@ function App() {
         </Row>
         <Row className="buttons" style={{marginTop: "2rem",bottom: 0,}}>
           <Col xs={1}>
-            <a href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${quote.quote}"} id="tweet-quote" className='w-100'><BsTwitterX style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
+            <a  id="tweet-quote" className='w-100'><BsTwitterX style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
           </Col>
           <Col xs={1}>
-            <a href="https://www.instagram.com" id="instagram-quote" className='w-100'><FaInstagram style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
+            <a  id="instagram-quote" className='w-100'><FaInstagram style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
           </Col>
           <Col xs={8} >
             <Button id="new-quote"  style={{backgroundColor: randomColor,  transition:" all 1s", borderColor: randomColor}} onClick={handleNewQuote}>

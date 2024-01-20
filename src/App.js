@@ -46,7 +46,7 @@ function App() {
   };
   return (
     <Container  className="vh-100 d-flex align-items-center justify-content-center">
-      <script type="module" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      
       <div id="quote-box" className="p-4 border rounded" style={{position: 'fixed'}}>
         <Row id="quote">
           <Col xs={12}>

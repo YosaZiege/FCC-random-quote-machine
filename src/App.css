@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(90deg, rgba(0, 255, 90, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(193, 130, 238, 1) 86%);
+  transition: all 1s ease-in-out;
+}
+.leftQuote {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#quote-box {
+  position: fixed;
+  background-color: white; /* Set the background color of the quote box */
+  max-width: 800px;
+  min-width: 800px; /* Set the maximum width of the quote box */
+  max-height: 450px;
+  min-height: 450px;
+  margin: auto; /* Center the quote box horizontally */
+   /* Add padding to the quote box */
+   transition: " all 1s";
+ 
+}
+
+#quote-box p {
+  transition: " all 1s";
+  font-size: 2em; /* Set the font size of the quote text */
+  
+}
+#quote {
+ transition: " all 1s";
+ margin-bottom: 0.5rem;
+ max-height: 200px;
+ min-height: 200px;
+
+ 
+}
+#author {
+  margin-top: 2rem;
+
+  
+
+}
+
+.buttons {
+ 
+  
+  background-color: rebeccapurple;
+  background-color: white; /* Set a background color if needed */
+ 
+}
+
+#new-quote {
+  
+  font-weight: bold;
+  width: 7rem;
+  margin-left: 100%;
+  background-color: black;
+}
+.author {
+  margin-left: 50% ;
+ 
+}
+
+.fade-out {
+  transition: background 0.5s ease-in-out; /* Adjust the duration and easing function as needed */
+}
+
+#instagram-quote , #tweet-quote {
+margin-left: 40px;
+width: 2.5rem;
+
+}

@@ -8,14 +8,13 @@ body {
 }
 #quote-box {
   position: fixed;
-  background-color: white; /* Set the background color of the quote box */
+  background-color: white; 
   max-width: 800px;
-  min-width: 800px; /* Set the maximum width of the quote box */
+  min-width: 800px; 
   max-height: 450px;
   min-height: 450px;
-  margin: auto; /* Center the quote box horizontally */
-   /* Add padding to the quote box */
-   transition: " all 1s";
+  margin: auto; 
+  transition: " all 1s";
  
 }
 
@@ -24,7 +23,7 @@ body {
   font-size: 2em; /* Set the font size of the quote text */
   
 }
-#quote {
+#text {
  transition: " all 1s";
  margin-bottom: 0.5rem;
  max-height: 200px;

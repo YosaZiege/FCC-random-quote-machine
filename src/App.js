@@ -60,10 +60,10 @@ function App() {
         </Row>
         <Row className="buttons" style={{marginTop: "2rem",bottom: 0,}}>
           <Col xs={1}>
-            <a  id="tweet-quote" className='w-100'><BsTwitterX style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
+            <a  href = "https://twitter.com/?lang=fr" id="tweet-quote" className='w-100'><BsTwitterX style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
           </Col>
           <Col xs={1}>
-            <a  id="instagram-quote" className='w-100'><FaInstagram style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
+            <a  href ="https://www.instagram.com/" id="instagram-quote" className='w-100'><FaInstagram style={{ color: randomColor, fontSize: "2.5rem" , transition:" all 1s"}}/></a>
           </Col>
           <Col xs={8} >
             <Button id="new-quote"  style={{backgroundColor: randomColor,  transition:" all 1s", borderColor: randomColor}} onClick={handleNewQuote}>
